@@ -1,7 +1,7 @@
 # Sleeper
 # (c) Copyright 2024 chris1111, All Right Reserved.
 # This will install Sleeper
-# Dependencies: osacompile
+# Dependencies: LaunchAgents
 PARENTDIR=$(dirname "$0")
 cd "$PARENTDIR"
 
