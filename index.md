@@ -17,4 +17,4 @@ OS X has a timer that tracks the last time you moved the mouse, typed a key, or 
 
 See ➤ [Sleeper script](https://github.com/chris1111/Sleeper/blob/main/SleeperTime/Sleeper)
 
-How to ➤ [Use it](https://github.com/chris1111/Sleeper/blob/main/Usage.md)
+How to ➤ [Use this script](https://github.com/chris1111/Sleeper/blob/main/Usage.md)

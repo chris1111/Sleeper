@@ -14,4 +14,4 @@ In technical terms, the timer goes by the name `HIDIdleTime` and is part of `IOK
 
 See ➤ [Sleeper script](https://github.com/chris1111/Sleeper/blob/main/SleeperTime/Sleeper)
 
-How to ➤ [Use it](https://github.com/chris1111/Sleeper/blob/main/Usage.md)
+How to ➤ [Use this script](https://github.com/chris1111/Sleeper/blob/main/Usage.md)
