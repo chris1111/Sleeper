@@ -3,7 +3,7 @@ layout: default
 ---
 
 # Sleeper
-<img width="250" alt="1" src="PICS/applet.png">
+<img width="200" alt="1" src="PICS/applet.png">
 
 Bash Script with a LaunchAgents to make the Mac in Sleep After Inactivity 
 - This script solves the problem of those who cannot put the computer to sleep in macOS Sequoia
