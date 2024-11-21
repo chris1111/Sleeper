@@ -24,5 +24,6 @@ git clone https://github.com/chris1111/Sleeper.git
 
 
 Take into account: At any time you can change the sleep time value in /Library/Application Support/SleeperTime/Sleeper
+- After doing this ➥ Reboot macOS
 
 
