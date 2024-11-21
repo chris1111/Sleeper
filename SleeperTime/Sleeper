@@ -1,0 +1,37 @@
+#!/bin/sh
+# bash script to setup the sleep time in macOS Sequoia
+# Create and modify by chris111 Nov 2024 base on (https://apple.stackexchange.com/a/207010/577430)
+
+# Pause/Interval between checks
+checkInt=1
+
+# Keep track of the idle timer
+lastIdle=0
+
+while true ; do
+   ioresp=`ioreg -w 0 -c IOHIDSystem | sed -e '/HIDIdleTime/ !{ d' -e 't' -e '}' -e 's/.* = //g' -e 'q'`
+   idleNow=`echo $(( ${ioresp} / 1000000000 ))`
+
+   re='^[0-9]+$'
+   if ! [[ $idleNow =~ $re ]] ; then
+      echo "error: ioreg did not return a number" >&2; exit 1
+   fi
+
+   echo "Idle now is $idleNow secs, was $lastIdle secs"
+
+   # Set the number of seconds before putting the Mac into Sleep 300=(5 Minutes)
+   idletime="300"
+   if pgrep -q ScreenSaverEngine; then
+      echo "ScreenSaverEngine is running."
+      killall ScreenSaverEngine
+   else
+      echo "ScreenSaverEngine is not running."
+   fi
+   if [ $idleNow -gt $idletime ]; then
+   osascript -e 'display notification "Going to sleep in 3 sec" with title "Sleeper" sound name "default"' 
+   Sleep 3
+   # Turns to sleep now!
+   pmset sleepnow
+   fi
+   sleep $checkInt
+done

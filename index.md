@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Sleeper
 <img width="250" alt="1" src="PICS/applet.png">
 
@@ -9,8 +13,7 @@ OS X has a timer called `HIDIdleTime` that tracks the last time you interacted w
 
 OS X has a timer that tracks the last time you moved the mouse, typed a key, or interacted with the computer. This timer is used as the basis of idle time for when your Mac sleeps.
 
-In technical terms, the timer goes by the name `HIDIdleTime` and is part of `IOKit’s IOHIDSystem`. 
-[See here](https://www.dssw.co.uk/blog/2015-01-21-inactivity-and-idle-time/)
+##### In technical terms, the timer goes by the name `HIDIdleTime` and is part of `IOKit’s IOHIDSystem`. [See here](https://www.dssw.co.uk/blog/2015-01-21-inactivity-and-idle-time/)
 
 See ➤ [Sleeper script](https://github.com/chris1111/Sleeper/blob/main/SleeperTime/Sleeper)
 
