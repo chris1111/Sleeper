@@ -4,7 +4,7 @@ git clone https://github.com/chris1111/Sleeper.git
 ```
 2- Edit the script `Sleeper` in folder SleeperTime
 #### Set the number of seconds before putting the Mac into Sleep 300=(5 Minutes)
--  [`idletime="300"`](https://github.com/chris1111/Sleeper/blob/main/SleeperTime/Sleeper#L23)
+-  [`idletime="300"`](https://github.com/chris1111/Sleeper/blob/main/SleeperTime/Sleeper#L25)
   
 <img src="PICS/idletime.png">
 
