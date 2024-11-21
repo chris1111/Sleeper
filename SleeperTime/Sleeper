@@ -1,7 +1,8 @@
 #!/bin/sh
 # bash script to setup the sleep time in macOS Sequoia
-# Create and modify by chris111 Nov 2024 base on (https://apple.stackexchange.com/a/207010/577430)
+# Create and modify by chris111 Nov 2024 base on (Dude named Ben) https://apple.stackexchange.com/a/207010/577430
 
+# Portion from (Dude named Ben)
 # Pause/Interval between checks
 checkInt=1
 
@@ -19,6 +20,7 @@ while true ; do
 
    echo "Idle now is $idleNow secs, was $lastIdle secs"
 
+   # Portion from (chris1111)
    # Set the number of seconds before putting the Mac into Sleep 300=(5 Minutes)
    idletime="300"
    if pgrep -q ScreenSaverEngine; then
