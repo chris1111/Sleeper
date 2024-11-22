@@ -1,4 +1,4 @@
-### 1- Clone repository
+### 1- Clone this repository
 ```bash
 git clone https://github.com/chris1111/Sleeper.git
 ```
