@@ -1,6 +1,6 @@
 #!/bin/sh
 # bash script to setup the sleep time in macOS Sequoia
-# Create and modify by chris111 Nov 2024 base on (Dude named Ben) https://apple.stackexchange.com/a/207010/577430
+# Create and modify by chris111 Nov 2024 base on (Dude named Ben) https://apple.stackexchange.com/a/476920/577430
 
 # Portion from (Dude named Ben)
 # Pause/Interval between checks
