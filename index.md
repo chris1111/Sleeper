@@ -3,6 +3,9 @@ layout: default
 ---
 
 # Sleeper
+
+[![pages-build-deployment](https://github.com/chris1111/Sleeper/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/chris1111/Sleeper/actions/workflows/pages/pages-build-deployment)
+
 <img width="200" alt="1" src="PICS/applet.png">
 
 Bash Script with a LaunchAgents to make the Mac in Sleep After Inactivity 
